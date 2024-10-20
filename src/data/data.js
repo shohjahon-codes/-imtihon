@@ -64,6 +64,7 @@ const data = {
       title: "Calabrese Broccoli",
       price: "$20.00",
       price2: "$13.00",
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 2,
@@ -71,7 +72,8 @@ const data = {
       buttontitle: "Fresh",
       title: "Fresh Banana Fruites",
       price: "$20.00",
-      price2: "$14.00",
+      price2: "$14.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 3,
@@ -79,7 +81,8 @@ const data = {
       buttontitle: "Millets",
       title: "White Nuts",
       price: "$20.00",
-      price2: "$15.00",
+      price2: "$15.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 4,
@@ -87,7 +90,8 @@ const data = {
       buttontitle: "Vegetable",
       title: "Calabrese Broccoli",
       price: "$20.00",
-      price2: "$13.00",
+      price2: "$13.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 5,
@@ -95,7 +99,8 @@ const data = {
       buttontitle: "Health",
       title: "Mung Bean",
       price: "$20.00",
-      price2: "$11.00",
+      price2: "$11.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 6,
@@ -103,7 +108,8 @@ const data = {
       buttontitle: "Nuts",
       title: "Brown Hazelnut",
       price: "$20.00",
-      price2: "$12.00",
+      price2: "$12.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 7,
@@ -111,7 +117,8 @@ const data = {
       buttontitle: "Fresh",
       title: "Eggs",
       price: "$20.00",
-      price2: "$17.00",
+      price2: "$17.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 8,
@@ -119,7 +126,8 @@ const data = {
       buttontitle: "Fresh",
       title: "Zelco Suji Elaichi Rusk",
       price: "$20.00",
-      price2: "$15.00",
+      price2: "$15.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 9,
@@ -127,7 +135,8 @@ const data = {
       buttontitle: "Health",
       title: "Mung Bean",
       price: "$20.00",
-      price2: "$11.00",
+      price2: "$11.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 10,
@@ -135,7 +144,8 @@ const data = {
       buttontitle: "Nuts",
       title: "White Hazelnut",
       price: "$20.00",
-      price2: "$13.00",
+      price2: "$13.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 11,
@@ -143,7 +153,8 @@ const data = {
       buttontitle: "Fresh",
       title: "Fresh Corn",
       price: "$20.00",
-      price2: "$13.00",
+      price2: "$13.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
     {
       id: 12,
@@ -151,7 +162,8 @@ const data = {
       buttontitle: "Fresh",
       title: "Organic Almonds",
       price: "$20.00",
-      price2: "$13.00",
+      price2: "$13.00", 
+      description:"Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
     },
   ],
   food: [

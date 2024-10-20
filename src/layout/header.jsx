@@ -2,10 +2,12 @@ import React from 'react';
 import { LogoIcon } from '../assets/icons/logo';
 import { SearchIcon } from '../assets/icons/search';
 import { CartIcon } from '../assets/icons/cart';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md py-[40px] ">
+    <nav className="bg-white shadow-md py-[40px] font-serif ">
       <div className="  flex justify-between items-center container">
         
         <div className="flex items-center space-x-2">
@@ -23,7 +25,7 @@ const Navbar = () => {
               <li><a href="#page2" className="block px-4 py-2 hover:bg-gray-100">Page 2</a></li>
             </ul>
           </li>
-          <li><a href="#shop" className="hover:text-gray-800">Shop</a></li>
+           <li><Link to={"/shop"}><a href="#shop" className="hover:text-gray-800">Shop</a></Link></li>
           <li><a href="#projects" className="hover:text-gray-800">Projects</a></li>
           <li><a href="#news" className="hover:text-gray-800">News</a></li>
         </ul>
