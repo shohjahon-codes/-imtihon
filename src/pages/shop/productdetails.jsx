@@ -20,8 +20,8 @@ const ProductDetails = () => {
   
     return (
       <div className="container mx-auto font-serif p-4">
-        {/* Mahsulotning asosiy tafsilotlari */}
-        <HeroTwo/>
+       
+        <HeroShop/>
         <div className="flex justify-between mt-[100px] items-center">
           <div className="w-[590px] h-[560px] flex items-center shadow-lg border rounded-[30px]">
             <p className="bg-primary text-gray p-[20px] mb-[500px] h-[30px] flex items-center rounded-[30px] m-[10px]">

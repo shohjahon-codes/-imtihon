@@ -2,6 +2,7 @@ import React from "react";
 import bg from "../assets/bacgraundfooter.png";
 import { SmIcon } from "../assets/icons/sm";
 import { LogoIcon } from "../assets/icons/logo";
+import Button from "../components/buttons/buttons";
 export const Footer = () => {
   return (
     <footer className="bg-gray-100 py-8 font-serif">
@@ -20,9 +21,7 @@ export const Footer = () => {
               placeholder="Enter your email"
               className="p-2 rounded-l-lg border-none focus:outline-none text-black"
             />
-            <button className="bg-green-500 px-4 py-2 rounded-r-lg hover:bg-green-600">
-              Subscribe
-            </button>
+              <Button color="bg-primary text-gray" size="px-8 py-3 ml-[20px]" text="Subscribe" />
           </div>
         </div>
 

@@ -16,8 +16,8 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex space-x-8 text-gray-600">
-          <li><a href="#home" className="hover:text-gray-800">Home</a></li>
-          <li><a href="#about" className="hover:text-gray-800">About</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
           <li className="relative group">
             <button className="hover:text-gray-800">Pages</button>
             <ul className="absolute hidden group-hover:block bg-white shadow-lg py-2 mt-1">
@@ -25,7 +25,7 @@ const Navbar = () => {
               <li><a href="#page2" className="block px-4 py-2 hover:bg-gray-100">Page 2</a></li>
             </ul>
           </li>
-           <li><Link to={"/shop"}><a href="#shop" className="hover:text-gray-800">Shop</a></Link></li>
+           <li><Link to={"/shop"}>Shop</Link></li>
           <li><a href="#projects" className="hover:text-gray-800">Projects</a></li>
           <li><a href="#news" className="hover:text-gray-800">News</a></li>
         </ul>

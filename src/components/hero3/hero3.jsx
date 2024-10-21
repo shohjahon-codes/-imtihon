@@ -1,12 +1,14 @@
 import React from 'react'
-import bgshop from "../../assets/bgshop.jpg"
+import shopbg from "../../assets/shopbg.png"
 
-export const HeroTwo = () => {
+export const HeroShop = () => {
   return (
+
     <div className=' w-full bg-cover bg-center ' style={{ backgroundImage: `url(${shopbg})`}} >
 
       
 
     </div>
+    
   )
 }
